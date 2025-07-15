@@ -33,15 +33,20 @@ Tools used:
 - **Python (Pandas):** In-depth cleaning, handling missing values, exporting cleaned dataset  
 
 ```python
+# Import Required Libraries
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Load data
 df = pd.read_csv("olympics2024.csv")
 
-# Inspect data
+# Quick data exploration
 print(df.head())
 print(df.isnull().sum())
+print(df.dtypes)
 print(df.duplicated().sum())
+print(df.info())
+print(df.describe())
 
 # Drop duplicates
 df = df.drop_duplicates()

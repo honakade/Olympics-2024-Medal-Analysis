@@ -139,7 +139,7 @@ The chart image is saved at images/10_plus_medals_chart.png.
 - 12 countries earned 10 or more medals; top 5 countries accounted for over 50% of all medals.
 - Countries with 5+ gold medals generally have high total medal counts, indicating strong athletic programs.
 - Medal distribution is highly concentrated among a small group of nations.
-- 
+
 ## Business Context
 
 The Olympic Committee aims to understand medal distribution among countries to optimise funding and media coverage. This analysis highlights leading nations and concentration patterns to support strategic decisions.
